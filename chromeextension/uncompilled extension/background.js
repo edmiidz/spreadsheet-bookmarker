@@ -13,7 +13,7 @@ var oauth = ChromeExOAuth.initBackgroundPage({
   'consumer_key' : 'anonymous',
   'consumer_secret' : 'anonymous',
   'scope' : 'https://www.googleapis.com/auth/userinfo.email',
-  'app_name' : 'Enterprise like button'
+  'app_name' : 'Spreadsheet Bookmarker'
 });
 
 var contacts = null;

@@ -1,8 +1,8 @@
 {
-  "name": "Enterprise like button",
+  "name": "Spreadsheet Bookmarker",
   "version": "1.0.0",
   "icons": { "48": "images/icon.png" },
-  "description": "Enterprise like button.",
+  "description": "Spreadsheet Bookmarker.",
   "background": {
     "scripts": [
       "jquery.js",
