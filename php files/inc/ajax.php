@@ -4,10 +4,10 @@ include "functions.php";
  
 	switch($_REQUEST['action']){
 		case 'save_data':
-				$logo = mysql_real_escape_string($_POST['logo']);
-				$sskey = mysql_real_escape_string($_POST['sskey']);
-				mysql_query("update settings set value='$sskey' where name='ssid'");
-				mysql_query("update settings set value='$logo' where name='logo'");
+				$logo = mysqli_real_escape_string($_POST['logo']);
+				$sskey = mysqli_real_escape_string($_POST['sskey']);
+				mysqli_query("update settings set value='$sskey' where name='ssid'");
+				mysqli_query("update settings set value='$logo' where name='logo'");
 		break;
 		
 		case 'add_row'; 

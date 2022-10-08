@@ -4,12 +4,12 @@ $username = '';
 $password = '';
 $database = '';
 
-$con = mysql_connect($server,$username,$password);
+$con = mysqli_connect($server,$username,$password);
 if (!$con)
   {
-  die('Could not connect: ' . mysql_error());
+  die('Could not connect: ' . mysqli_error());
   }else{
-  mysql_select_db($database); 
+  mysqli_select_db($database); 
 } 
 $adminUser = 'admin';
 $adminPassword = 'admin';

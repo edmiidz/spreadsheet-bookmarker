@@ -16,8 +16,8 @@ global $adminPassword;
 function setLogin($user,$password){
 global $adminUser;
 global $adminPassword;
-$user = mysql_real_escape_string($user);
-$password = mysql_real_escape_string($password);
+$user = mysqli_real_escape_string($user);
+$password = mysqli_real_escape_string($password);
 	if($user==$adminUser && $password==$adminPassword){
 	
 		setcookie("adminUser",$user, time()+3600*24);
@@ -39,8 +39,8 @@ function deleteLogin(){
 
 }
 function get_setting($name){
-	$query = mysql_query("select value from settings where name = '$name'");
-	$value = mysql_fetch_row($query);
+	$query = mysqli_query("select value from settings where name = '$name'");
+	$value = mysqli_fetch_row($query);
 	return $value[0];
 
 }
