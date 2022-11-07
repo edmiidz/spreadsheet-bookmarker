@@ -10,7 +10,7 @@
     "default_popup": "popup.html" 
   },
   "oauth2" : {
-    "client_id":"108998429166-6p7j0u5ta71f3ct49rhbinvpect2buh5.apps.googleusercontent.com",
+    "client_id":"108998429166-5vbev630dc0piiecu51ii5eaa5n7m3a5.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/contacts.readonly",
       "https://www.googleapis.com/auth/userinfo.email"
