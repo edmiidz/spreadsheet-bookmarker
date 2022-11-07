@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Enterprise Like Button (ELB)",
+  "version": "1.0.0",
+  "description": "Enterprise Like Button (ELB)",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {  
+    "default_popup": "popup.html" 
+  },
+  "oauth2" : {
+    "client_id":"108998429166-6p7j0u5ta71f3ct49rhbinvpect2buh5.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/contacts.readonly",
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+
+  },
+  "permissions": ["identity","activeTab","tabs","storage"],
+  "host_permissions": [
+    "http://localhost/spreadsheet-bookmarker/save-spreadsheet/*",
+    "https://spreadsheet-bookmarker.nohandsapps.ca/*"
+  ]
+}  

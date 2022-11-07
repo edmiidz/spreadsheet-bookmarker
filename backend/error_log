@@ -1,0 +1,16 @@
+[05-Nov-2022 22:54:15 UTC] PHP Warning:  include(): Filename cannot be empty in /home/spreadsheetbm/public_html/index.php on line 100
+[05-Nov-2022 22:54:15 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/index.php on line 100
+[05-Nov-2022 22:54:25 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 22:54:25 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:03:54 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:03:54 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:05:19 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:05:19 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:06:38 UTC] PHP Warning:  include(): Filename cannot be empty in /home/spreadsheetbm/public_html/index.php on line 100
+[05-Nov-2022 23:06:38 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/index.php on line 100
+[05-Nov-2022 23:06:38 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:06:38 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:06:41 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[05-Nov-2022 23:06:41 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/templates/home.php on line 3
+[06-Nov-2022 16:04:54 UTC] PHP Warning:  include(): Filename cannot be empty in /home/spreadsheetbm/public_html/index.php on line 100
+[06-Nov-2022 16:04:54 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/spreadsheetbm/public_html/index.php on line 100
