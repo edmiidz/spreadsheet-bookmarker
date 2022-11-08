@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Enterprise Like Button (ELB)",
+  "name": "Simple Link Share",
   "version": "1.0.0",
-  "description": "Enterprise Like Button (ELB)",
+  "description": "Simple Link Share",
   "background": {
     "service_worker": "background.js"
   },
@@ -10,7 +10,7 @@
     "default_popup": "popup.html" 
   },
   "oauth2" : {
-    "client_id":"108998429166-5vbev630dc0piiecu51ii5eaa5n7m3a5.apps.googleusercontent.com",
+    "client_id":"{{relace with you client_id}}",
     "scopes": [
       "https://www.googleapis.com/auth/contacts.readonly",
       "https://www.googleapis.com/auth/userinfo.email"
